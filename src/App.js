@@ -96,7 +96,7 @@ function App() {
 
   return (
     <div className="App">
-      <BrowserRouter basename="/kuki-bakery">
+      <BrowserRouter basename={process.env.PUBLIC_URL}>
         <Navigation user = {user} notify = {notify} setNotify = {setNotify} userCart = {userCart} setLoggingOut = {setLoggingOut}/>
           
         <Switch>
