@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/kuki-bakery/static/css/main.9231acaf.chunk.css",
-    "main.js": "/kuki-bakery/static/js/main.24b6ab23.chunk.js",
-    "main.js.map": "/kuki-bakery/static/js/main.24b6ab23.chunk.js.map",
+    "main.js": "/kuki-bakery/static/js/main.3c5bf978.chunk.js",
+    "main.js.map": "/kuki-bakery/static/js/main.3c5bf978.chunk.js.map",
     "runtime-main.js": "/kuki-bakery/static/js/runtime-main.0e7659e5.js",
     "runtime-main.js.map": "/kuki-bakery/static/js/runtime-main.0e7659e5.js.map",
-    "static/js/2.96f5c4b8.chunk.js": "/kuki-bakery/static/js/2.96f5c4b8.chunk.js",
-    "static/js/2.96f5c4b8.chunk.js.map": "/kuki-bakery/static/js/2.96f5c4b8.chunk.js.map",
+    "static/js/2.41aaf4a1.chunk.js": "/kuki-bakery/static/js/2.41aaf4a1.chunk.js",
+    "static/js/2.41aaf4a1.chunk.js.map": "/kuki-bakery/static/js/2.41aaf4a1.chunk.js.map",
     "index.html": "/kuki-bakery/index.html",
     "static/css/main.9231acaf.chunk.css.map": "/kuki-bakery/static/css/main.9231acaf.chunk.css.map",
-    "static/js/2.96f5c4b8.chunk.js.LICENSE.txt": "/kuki-bakery/static/js/2.96f5c4b8.chunk.js.LICENSE.txt",
+    "static/js/2.41aaf4a1.chunk.js.LICENSE.txt": "/kuki-bakery/static/js/2.41aaf4a1.chunk.js.LICENSE.txt",
     "static/media/404.da5c206d.png": "/kuki-bakery/static/media/404.da5c206d.png",
     "static/media/bakery.7a11a6c6.png": "/kuki-bakery/static/media/bakery.7a11a6c6.png",
     "static/media/basket-berry.676f6a0f.png": "/kuki-bakery/static/media/basket-berry.676f6a0f.png",
@@ -50,8 +50,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.0e7659e5.js",
-    "static/js/2.96f5c4b8.chunk.js",
+    "static/js/2.41aaf4a1.chunk.js",
     "static/css/main.9231acaf.chunk.css",
-    "static/js/main.24b6ab23.chunk.js"
+    "static/js/main.3c5bf978.chunk.js"
   ]
 }
