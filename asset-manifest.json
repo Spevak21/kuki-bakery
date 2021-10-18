@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/kuki-bakery/static/css/main.9231acaf.chunk.css",
-    "main.js": "/kuki-bakery/static/js/main.24b6ab23.chunk.js",
-    "main.js.map": "/kuki-bakery/static/js/main.24b6ab23.chunk.js.map",
+    "main.js": "/kuki-bakery/static/js/main.f2d1cbbe.chunk.js",
+    "main.js.map": "/kuki-bakery/static/js/main.f2d1cbbe.chunk.js.map",
     "runtime-main.js": "/kuki-bakery/static/js/runtime-main.0e7659e5.js",
     "runtime-main.js.map": "/kuki-bakery/static/js/runtime-main.0e7659e5.js.map",
     "static/js/2.96f5c4b8.chunk.js": "/kuki-bakery/static/js/2.96f5c4b8.chunk.js",
@@ -52,6 +52,6 @@
     "static/js/runtime-main.0e7659e5.js",
     "static/js/2.96f5c4b8.chunk.js",
     "static/css/main.9231acaf.chunk.css",
-    "static/js/main.24b6ab23.chunk.js"
+    "static/js/main.f2d1cbbe.chunk.js"
   ]
 }
