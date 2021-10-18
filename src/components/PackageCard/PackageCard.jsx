@@ -1,21 +1,7 @@
-// import { useEffect, useState } from "react";
 import StyledPackageCard from "./StyledPackageCard";
 
-
-
 const PackageCard = ({pack, control, counter}) => {
-    // if(pack === null){
-
-    //     console.log(pack);
-    // }
-    // const [control, setControl] = useState(false);
-    // console.log(control)
-
-    // useEffect(() => {
-        
-    //     setControl(true);
-    // }, [pack])
-    // console.log(pack.image)
+   
     return (
         <StyledPackageCard className={control?'slide-in':''} counter = {counter}> 
             {/* <img src={process.env.PUBLIC_URL + pack.image} alt={pack.type}/> */}

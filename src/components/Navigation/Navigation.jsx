@@ -1,12 +1,11 @@
 import StyledNavigation from "./StyledNavigation";
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import { Link } from 'react-router-dom';
 
 import iconMenu from '../../images/icon-menu.png';
 import iconCart from '../../images/icon-cart.png';
 import iconArrow from '../../images/icon-arrow.png'
 import logoNav from '../../images/logo-nav.png';
-import { useEffect } from "react/cjs/react.development";
 
 const Navigation = ({user, notify, setNotify, userCart, setLoggingOut}) => {
 

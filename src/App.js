@@ -20,13 +20,12 @@ function App() {
   const [user, setUser] = useState(null);                                     // 1
   const [userCart, setUserCart] = useState([]);                               // 2
   const [loggingOut, setLoggingOut] = useState(false);                        // 3
-  const [cartLength, setCartLength] = useState(0);                            // 4
-  const [notify, setNotify] = useState(false);                                // 5
-  const [allUsers, setAllUsers] = useState([]);                               // 6
-  const [allPackagings, setAllPackagings] = useState([]);                     // 7
-  const [allProducts, setAllProducts] = useState([]);                         // 8
-  const [priceQty, setPriceQty] = useState(0);                                // 9
-  const [pricePkg, setPricePkg] = useState(0);                                // 10
+  const [notify, setNotify] = useState(false);                                // 4
+  const [allUsers, setAllUsers] = useState([]);                               // 5
+  const [allPackagings, setAllPackagings] = useState([]);                     // 6
+  const [allProducts, setAllProducts] = useState([]);                         // 7
+  const [priceQty, setPriceQty] = useState(0);                                // 8
+  const [pricePkg, setPricePkg] = useState(0);                                // 9
 
   useEffect(() => {
     getAllUsers().then(res => {
@@ -49,7 +48,6 @@ function App() {
       updateUser(user.id, tmp).then(res => {
         setUser(null);
         setUserCart([]);
-        setCartLength(0);
         setLoggingOut(false);
 
         getAllUsers().then(res => {
@@ -87,13 +85,6 @@ function App() {
     }
   }, [user])
 
-  useEffect(() => {
-    if(userCart.length > cartLength) {
-      setCartLength(userCart.length);
-      setNotify(true);
-    }
-  }, [cartLength, userCart.length]);
-
   return (
     <div className="App">
       <BrowserRouter basename={process.env.PUBLIC_URL}>
@@ -109,16 +100,18 @@ function App() {
           <Route path="/contacts">
             <Contacts user = {user}/>
           </Route>
-          <Route path="/order">
-            <Order allProducts = {allProducts} user = {user} setUserCart = {setUserCart}/>
-          </Route>
           <Route path="/login">
             <Login user = {user} setUser = {setUser} allUsers = {allUsers}/>
           </Route>
           {user?
+          <>
+          <Route path="/order">
+            <Order allProducts = {allProducts} user = {user} setUserCart = {setUserCart} setNotify = {setNotify}/>
+          </Route>
           <Route path="/cart">
             <Cart userCart = {userCart} setUserCart = {setUserCart} priceQty = {priceQty} pricePkg = {pricePkg}/>
           </Route>
+          </>
           :
           <div style={{display: 'flex', flexDirection: 'column',justifyContent: 'center', alignItems: 'center', height: '100vh', width: '100vw'}}>
             <img src={image404} alt="Error 404 cookies" />

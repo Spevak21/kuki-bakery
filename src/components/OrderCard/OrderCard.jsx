@@ -1,8 +1,8 @@
-import { useState } from "react/cjs/react.development";
+import { useState } from "react";
 import { v4 as uuidv4 } from 'uuid';
 import StyledOrderCard from "./StyledOrderCard";
 
-const OrderCard = ({product, user, setUserCart, counter}) => {
+const OrderCard = ({product, user, setUserCart, setNotify, counter}) => {
 
     // console.log(product)
     let bgClass = "card__bg card__bg--" + (1 + counter);
@@ -62,7 +62,7 @@ const OrderCard = ({product, user, setUserCart, counter}) => {
     }
 
     const addToCart = () => {
-        
+        setNotify(true);
         setOrdered(true);
 
         setTimeout(() => {
