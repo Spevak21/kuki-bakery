@@ -1,0 +1,90 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "username": "user123",
+      "email": "user@gmail.com",
+      "password": "user123",
+      "cart": []
+    }
+  ],
+  "products": [
+    {
+      "id": "product-1",
+      "type": "Chocolate",
+      "icons": [
+        "./products/cookie-choco.png",
+        "./products/cookie-choco-3.png"
+      ],
+      "backgrounds": [
+        "./products/cookie-choco-bg.png",
+        "./products/chocolate-bg.png"
+      ],
+      "features": [
+        "Organic ingredients",
+        "Gluten free"
+      ],
+      "price": 6
+    },
+    {
+      "id": "product-2",
+      "type": "Blueberry",
+      "icons": [
+        "./products/cookie-blueberry.png",
+        "./products/cookie-blueberry-3.png"
+      ],
+      "backgrounds": [
+        "./products/cookie-blueberry-bg.png",
+        "./products/blueberry-bg.png"
+      ],
+      "features": [
+        "Organic ingredients",
+        "Gluten free",
+        "Vegan"
+      ],
+      "price": 8
+    },
+    {
+      "id": "product-3",
+      "type": "Raisin",
+      "icons": [
+        "./products/cookie-raisin.png",
+        "./products/cookie-raisin-3.png"
+      ],
+      "backgrounds": [
+        "./products/cookie-raisin-bg.png",
+        "./products/raisin-bg.png"
+      ],
+      "features": [
+        "Organic ingredients",
+        "Gluten free",
+        "Vegan"
+      ],
+      "price": 7
+    }
+  ],
+  "packagings": [
+    {
+      "id": "package-1",
+      "heading": "Paper bag / box",
+      "description": "Paper bags are standard shipping packaging and requires no additional charges.",
+      "image": "./packaging/packaging-paper.png",
+      "type": "paper"
+    },
+    {
+      "id": "package-2",
+      "heading": "Glass jar",
+      "description": "The glass cookie jar is hermetically sealed, keeping your cookies fresh for a long time, and also does not make a noise at night if you want a cookie while the others are asleep.",
+      "image": "./packaging/packaging-glass.png",
+      "type": "glass"
+    },
+    {
+      "id": "package-3",
+      "heading": "Aluminum box",
+      "description": "Remember grandma's cookie box with needles and threads and the feeling of disappointment after opening? Keep your box full of cookies and look forward to opening your box every time knowing what's inside.",
+      "image": "./packaging/packaging-aluminum.png",
+      "type": "aluminum"
+    }
+  ],
+  "messages": []
+}
