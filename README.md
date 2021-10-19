@@ -27,7 +27,7 @@ Next command is (in the same directory):
 
 This is a website for imaginary bakery 'Kuki'. Main focus of the bakery is on baking and selling different flavored cookies (Chocolate, Blueberry, and Raisin at the moment).
  
-- Home page: the user can see brief history about the bakery, information about ingredients the bakery uses in their production as well as some ecological aspect of bakeries business model.
+- Home page: the user can see brief history about the bakery, information about ingredients the bakery uses in their production as well as some ecological aspect of bakeries business model. (the number is generated randomly but should represent the actual number of planted trees, also for each 1000 planted trees one animated tree should pop at the bottom of that section)
 
 - Packaging page: cookies can come in 3 different types of packaging (paper, glass jar, aluminum box)
 
