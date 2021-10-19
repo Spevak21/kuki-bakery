@@ -13,7 +13,7 @@ import Order from './components/Order/Order';
 import Login from './components/Login/Login';
 import Cart from './components/Cart/Cart';
 
-import image404 from '../../kuki/src/images/404.png'
+import image404 from './images/404.png'
 
 function App() {
 
