@@ -15,8 +15,6 @@ You need to install following:
 npm - node package manager
 
 You need to clone following git repository:
-
-https://github.com/Spevak21/kuki-bakery.git
 ### `git clone https://github.com/Spevak21/kuki-bakery.git`
 
 In your terminal, go to the root directory, and run command:
