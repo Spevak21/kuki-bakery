@@ -3,7 +3,7 @@
 ## REACT JS Project for bakery website
 
 **I understand time is valuable so here is the link to the live version if you have no time for reading all of the bellow**
-[Kuki-live](https://spevak21.github.io/kuki-bakery/)
+[Kuki-live](https://spevak21.github.io/kuki-bakery/) (Username: user123, Password: user123)
 
 Instructions on how to run it on your computer:
 
@@ -12,7 +12,8 @@ npm - node package manager
 
 You need to clone following git repository:
 
-https://github.com/Spevak21/kuki-bakery.git (git clone https://github.com/Spevak21/kuki-bakery.git)
+https://github.com/Spevak21/kuki-bakery.git
+### `git clone https://github.com/Spevak21/kuki-bakery.git`
 
 In your terminal, go to the root directory, and run command:
 ### `npm install`
