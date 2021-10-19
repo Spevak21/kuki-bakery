@@ -38,11 +38,16 @@ On this project, my main focus was on interactive animations and immersiveness o
 Contacts page:
 - the user can send a message to the bakery (a guest will need to provide a name and an email for sending a message, if a user is logged in credentials are already passed through the website)
 
-When logged in the user will get the option to pick a certain amount of cookies of a certain type. When order is checked on the puchase card it will go to users cart.
-In the cart user can:
+Order page:
+
+- when logged in the user will get the option to pick a certain amount of cookies of a certain type. When order is checked on the puchase card it will go to users cart.
+
+Cart page:
+
 - change packaging for that particular order (default is paper packaging which is free. Glass packaging is additional $2 and aluminum packaging is additional $5)
 - increase or decrease quantity of particular order
 - delete order
+
 All calculations are changing live so user can see exactly where he/she is spending certain amount of money
 
 ## TO DO
