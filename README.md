@@ -12,7 +12,7 @@
 ## Instructions on how to run it on your computer:
 
 You need to install following:
-npm - node package manager ()
+npm - node package manager (v6.14.5 or newer version)
 
 You need to clone following git repository:
 ### `git clone https://github.com/Spevak21/kuki-bakery.git`
@@ -55,7 +55,7 @@ All calculations are changing live so user can see exactly where he/she is spend
 
 ## Server
 
-In this project I have simulated backend database with Heroku for users, products, packagings, messages.
+In this project I have simulated backend database with Heroku for users, products, packagings, messages.   
 [Heroku database](https://my-kuki-server.herokuapp.com)  
 
 ## TO DO
