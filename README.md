@@ -12,7 +12,7 @@
 ## Instructions on how to run it on your computer:
 
 You need to install following:
-npm - node package manager
+npm - node package manager ()
 
 You need to clone following git repository:
 ### `git clone https://github.com/Spevak21/kuki-bakery.git`
@@ -53,6 +53,11 @@ Cart page:
 
 All calculations are changing live so user can see exactly where he/she is spending certain amount of money
 
+## Server
+
+In this project I have simulated backend database with Heroku for users, products, packagings, messages.
+[Heroku database](https://my-kuki-server.herokuapp.com)  
+
 ## TO DO
 
 - Add checkout form
@@ -64,6 +69,7 @@ All calculations are changing live so user can see exactly where he/she is spend
 - ReactJS
 - Styled Components
 - React Router
+- Axios
 - Git
 - Heroku
 - VS Code
