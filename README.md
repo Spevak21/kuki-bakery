@@ -3,11 +3,7 @@
 ## REACT JS Project for bakery website
 
 **I understand time is valuable so here is the link to the live version if you have no time for reading all of the bellow**
-[Kuki-live](https://spevak21.github.io/kuki-bakery/)  
-
-### Username: **user123**
-### Password: **user123**
-(or feel free to create your own account and order some cookies :) )
+[Kuki-live](https://spevak21.github.io/kuki-bakery/)
 
 ## Instructions on how to run it on your computer:
 
